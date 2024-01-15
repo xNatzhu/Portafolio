@@ -1,0 +1,117 @@
+.StripeOne {
+    position: absolute;
+    right: 5cm;
+    top: 0;
+    background-color: #09926a;
+    clip-path: polygon(54% 0, 100% 0%, 63% 100%, 13% 100%);
+    width: 60%;
+    height: 100%;
+}
+
+.animations-Circle {
+    animation: moveUpDownCircle 3s ease infinite alternate;
+}
+
+
+@keyframes moveUpDownCircle {
+    0% {
+        transform: translateY(0);
+        width: 10px;
+    }
+    100% {
+        transform: translateY(20px); /* Ajusta la cantidad que quieras que se mueva hacia arriba o hacia abajo */
+        width: 15px;
+    }
+}
+
+
+.animations-Circle-Two {
+    animation: moveUpDownCircle-Two 3s ease-in-out infinite alternate;
+}
+@keyframes moveUpDownCircle-Two {
+    0% {
+        transform: translateX(0);
+        transform: translateY(0);
+
+    }
+    100% {
+        transform: translateX(50px);
+        transform: translateY(10px);
+    }
+}
+
+
+.animations-Planet-Rotation {
+    animation: PlanetRotation 10s linear infinite;
+}
+@keyframes PlanetRotation {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.animations-Circle-Star {
+    animation: moveUpDownCircle-Star 3s ease-in-out infinite alternate;
+}
+@keyframes moveUpDownCircle-Star{
+    0% {
+        transform: translateX(0);
+        transform: translateY(0);
+
+    }
+    100% {
+        transform: translateX(60px);
+        transform: translateY(5px);
+    }
+}
+
+.animations-Three{
+    animation: moveUpDownThree 3s ease-in-out infinite alternate;
+}
+@keyframes moveUpDownThree{
+    0% {
+        transform: translateX(0);
+
+    }
+    100% {
+        transform: translateX(30px);
+    }
+}
+
+.animations-four {
+    animation: moveUpAnimationsFour 3s ease-in-out infinite alternate;
+}
+@keyframes moveUpAnimationsFour {
+    0% {
+        transform: translateX(0);
+        transform: translateY(0);
+        width: 30px;
+
+    }
+    100% {
+        transform: translateX(60px);
+        transform: translateY(20px);
+        width: 40px;
+    }
+}
+
+
+.animations-line {
+    overflow: hidden;
+    background-color: aqua;
+    animation: moveUpAnimationsLine 3s ease-in-out infinite alternate;
+}
+@keyframes moveUpAnimationsLine {
+    0% {
+        height: 0%;
+
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+.hero{
+    overflow: hidden;
+}
