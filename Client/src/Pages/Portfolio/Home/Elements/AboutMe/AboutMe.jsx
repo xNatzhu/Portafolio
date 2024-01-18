@@ -1,6 +1,7 @@
 import "../Hero/Css/Hero.css"
 export default function AboutMe() {
     return(
+        <>
         <div className="bg-[#161829] w-[100%] px-[30px] flex pt-[100px] pb-[50px] relative">
             <div className="StripeTwo"></div>
             <img className="absolute top-[250px] right-[30px] animations-Circle" src="../../../../../../public/Image/Portafolio/Shape/circle.png" alt=""/>
@@ -25,6 +26,7 @@ export default function AboutMe() {
                 </div>
             </div>
 
-        </div>  
+        </div>
+</>
     )
 }
